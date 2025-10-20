@@ -46,3 +46,4 @@ User.findByIdAndDelete("67d80750b853148a677692ab").then((res)=>{
 }).catch((err)=>{
     console.log(err);
 })
+User.findById(id);
